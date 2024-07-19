@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Krypto
+A real time crypto currency application.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Demo
+https://github.com/user-attachments/assets/b176c0c0-a0c6-43a8-809e-7563f896140a
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### 1) Real-Time Applications:
 
-### `npm start`
+- The application provides real-time updates for cryptocurrency prices, ensuring users have the most current information.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2) Multi-Currency Price Display:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Prices of cryptocurrencies are available in multiple currencies including INR, USD, and EUR, allowing users to view and compare prices in their preferred currency.
 
-### `npm test`
+### 3) Interactive Charts:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Implemented charts using Chart.js to visually display the price and value of cryptocurrencies over different time periods. This feature helps users to easily understand and analyze market trends.
 
-### `npm run build`
+### 4) Data Integration from Third-Party APIs:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- The application fetches data from third-party APIs, ensuring reliable and accurate information. The data is seamlessly integrated and updated using Axios for API calls.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Learnings
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1) API Integration and Handling:
 
-### `npm run eject`
+- Aim: My primary goal was to learn how to effectively integrate and handle APIs within an application.
+- Outcome: Successfully implemented Axios to make API calls, manage responses, and handle errors. This experience improved my understanding of asynchronous data fetching, error handling, and working with RESTful services.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 2) Real-Time Data Handling:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Learned how to manage and display real-time data updates efficiently, ensuring that users receive the most current information without unnecessary delays.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 3) Multi-Currency Support:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Gained experience in handling and converting data for multiple currencies. This involved understanding and implementing conversion logic and ensuring that the application could seamlessly switch between different currency displays.
 
-## Learn More
+### 4) Chart Implementation:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Acquired skills in using Chart.js to create interactive and informative charts. This included learning how to customize charts, handle dynamic data updates, and enhance the visual representation of data for better user experience.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 5) User Interface and Experience:
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Improved my ability to design and implement a user-friendly interface that supports real-time data updates and interactive features, making the application more engaging and intuitive for users.

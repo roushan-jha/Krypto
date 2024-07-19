@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import { ChakraProvider, theme } from '@chakra-ui/react';
 import App from './App';
 
+// import cors from 'cors';
+// App.use(cors());
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -7,7 +7,7 @@ const Footer = () => {
         <Stack direction={["column", "row"]} h="full" alignItems={"center"} >
             <VStack w={"full"} alignItems={["center", "flex-start"]}>
                 <Text fontWeight={"bold"}>About Us</Text>
-                <Text fontSize={"sm"} letterSpacing={"widest"} textAlign={["center", "left"]} >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae quas voluptatem distinctio!</Text>
+                <Text fontSize={"sm"} letterSpacing={"widest"} textAlign={["center", "left"]} >Built a Real-Time crypto currency application.</Text>
             </VStack>
             <VStack>
                 <Avatar boxSize={"28"} mt={["4", "0"]} />

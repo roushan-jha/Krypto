@@ -27,7 +27,7 @@ https://github.com/user-attachments/assets/b176c0c0-a0c6-43a8-809e-7563f896140a
 ### 1) API Integration and Handling:
 
 - Aim: My primary goal was to learn how to effectively integrate and handle APIs within an application.
-Outcome: Successfully implemented Axios to make API calls, manage responses, and handle errors. This experience improved my understanding of asynchronous data fetching, error handling, and working with RESTful services.
+- Outcome: Successfully implemented Axios to make API calls, manage responses, and handle errors. This experience improved my understanding of asynchronous data fetching, error handling, and working with RESTful services.
 
 ### 2) Real-Time Data Handling:
 
